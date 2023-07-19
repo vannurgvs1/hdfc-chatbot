@@ -1,0 +1,20 @@
+.loginMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loginMain .load-ad>img {
+    max-width: 100%;
+    display: block;
+    height: 100vh;
+    border-radius: 0 10% 10%;
+}
+
+.login-head {
+    background: hwb(212 43% 0%);
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
