@@ -7,7 +7,7 @@ import PageContent from "./Components/PageContent";
 import SideMenu from "./Components/SideMenu";
 import Login from "./Pages/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import chatBotIcon from "./assets/images/chatbot.png";
+import chatBotIcon from "./assets/images/chatbot_icon.png";
 import { Modal } from 'antd';
 import ChatBotMsg from "../src/Pages/chatbot";
 
