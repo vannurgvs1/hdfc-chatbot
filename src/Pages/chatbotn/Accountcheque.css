@@ -1,0 +1,58 @@
+.head-line {
+  border: 1px solid black;
+  font-size: 14px;
+  height: 322px;
+  width: 348px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  right: 7px;
+  bottom: 0;
+}
+.Btn-Tag {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 6px 8px;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  margin-right: 4px;
+  margin-bottom: 6px;
+  font-size: 11px;
+}
+.Back-Btn {
+  width: 87%;
+  background-color: yellow;
+  font-size: small;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.Box-Wrap {
+  max-height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.Btn-Accnt {
+  width: 220px;
+  border: 1px solid #4472c4;
+  padding: 3px;
+  margin-bottom: 8px;
+}
+.head-line p span {
+  color: #f00;
+  font-weight: 600;
+}
+.Btn-Tag:hover,
+.Btn-Tag:active,
+.Btn-Tag:focus,
+.Btn-Tag:target {
+  background-color: #4472c4;
+  color: #fff;
+  border-color: #4472c4;
+}
+.Border-Line {
+  border: 1px solid blue;
+  padding: 10px;
+}
+.Che-service {
+  min-width: 227px;
+}

@@ -7,7 +7,7 @@ import PageContent from "./Components/PageContent";
 import SideMenu from "./Components/SideMenu";
 import Login from "./Pages/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import chatBotIcon from "./assets/images/chatbot.jpg";
+import chatBotIcon from "./assets/images/chatbot.png";
 import { Modal } from 'antd';
 import ChatBotMsg from "../src/Pages/chatbot";
 
@@ -24,17 +24,9 @@ function App() {
     }
 
     const showModal = () => {
-        // setIsModalOpen(true);
-        setOpen(true);
+        document.getElementById("chat-bot").style.display = "block";
+
     };
-
-    // const handleOk = () => {
-    //     setIsModalOpen(false);
-    // };
-
-    // const handleCancel = () => {
-    //     setIsModalOpen(false);
-    // };
 
     return (
         <div className="App">
@@ -50,14 +42,10 @@ function App() {
             <div className="chat-ad">
                 <img src={chatBotIcon} alt="chat-icon" width="70" height="70" className="chat-icon" onClick={showModal}></img>
             </div>
-            {/* <Modal title="Chat Bot Modal" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-                <p>Some contents...</p>
-                <p>Some contents...</p>
-            </Modal> */}
             <div className="chatBotMsg-box">
-            <ChatBotMsg closeDialog={closeDialog} isOpen={open}/>
+                <ChatBotMsg closeDialog={closeDialog} isOpen={open} />
             </div>
-            
+
         </div>
     );
 }

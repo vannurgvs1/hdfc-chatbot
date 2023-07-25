@@ -1,0 +1,167 @@
+.heading.helpBox-wrapper {
+  box-shadow: 0 0 5px 1px #888888;
+  /* border: 1px solid black; */
+  font-size: 18px;
+  height: 490px;
+  width: 305px;
+  padding: 10px;
+  background-color: white;
+  position: fixed;
+  right: 7px;
+  bottom: 0;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0;
+}
+
+.head_wrap {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.heading.helpBox-wrapper p {
+  font-size: 12px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.heading.helpBox-wrapper p span {
+  color: #f00;
+  font-weight: bold;
+}
+
+.help-btn {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 6px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 4px;
+  margin-bottom: 6px;
+  font-size: 11px;
+}
+
+.help-btn:hover,
+.help-btn:active,
+.help-btn:focus,
+.help-btn.active .help-btn:target {
+  background-color: #4472c4;
+  color: #fff;
+  border-color: #4472c4;
+}
+
+.in-btn {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 6px 14px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.styling {
+  padding: 8px;
+  background-color: white;
+}
+
+.style {
+  margin-top: 0;
+  padding: 2px;
+  width: 300px;
+  padding-top: 3.5rem;
+}
+
+.button {
+  margin-left: 80px;
+  line-height: 10px;
+  padding: 40px 20px;
+}
+
+.paraline {
+  width: 84%;
+  font-size: 13px;
+  color: black;
+  border: 1px solid #000;
+  padding: 4px 6px;
+  font-size: 11px !important;
+  clear: both;
+  background: #ccc;
+  text-align: center;
+}
+
+.btn-tag {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 6px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 4px;
+  margin-bottom: 6px;
+  font-size: 11px;
+}
+
+.backmenu {
+  width: 101%;
+  background-color: yellow;
+  font-size: small;
+  margin-top: 8px;
+  cursor: pointer;
+  padding: 5px 0;
+  border: 1px solid yellow;
+}
+
+.Accountbalance {
+  margin-left: 9rem;
+  min-width: auto;
+  color: #fff;
+  background-color: #4472c4;
+  padding: 7px 8px;
+  border: 1px solid #4472c4;
+  font-size: 12px;
+  float: right;
+  margin-bottom: 42px;
+  border-radius: 4px;
+}
+
+.login-page {
+  border: 1px solid blue;
+  text-align: center;
+  margin-top: 20px;
+  margin: 4px;
+  line-height: 27px;
+  clear: both;
+  padding: 4px;
+  border-radius: 4px
+}
+
+.heading.helpBox-wrapper .login-page p {
+  font-size: 11px;
+  line-height: normal;
+}
+
+.head_box {
+  position: fixed;
+  background: #fff;
+  padding: 8px;
+  z-index: 99;
+  padding-bottom: 0;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  height: 50px;
+}
+
+.button-Lg {
+  color: white;
+  background-color: #4472c4;
+  padding: 4px 46px;
+  font-size: 11px;
+  border: 1px solid #4472c4;
+}
+
+.close-icon {
+  margin-left: 10px;
+}

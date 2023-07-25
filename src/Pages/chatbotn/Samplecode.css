@@ -1,0 +1,83 @@
+.profile {
+  display: flex;
+  margin-left: auto;
+}
+.tabBar {
+  margin-top: -55px;
+
+  margin-left: -10%;
+}
+
+.tabIcon {
+  margin-right: 80px;
+  padding: 40px;
+  z-index: 1111;
+}
+
+.head {
+  margin-left: 8%;
+  margin-top: -50px;
+}
+.style {
+  margin-left: 6%;
+  padding: 20px;
+}
+
+.city {
+  margin-left: 10%;
+}
+.city1 {
+  margin-left: 100%;
+  margin-top: -30px;
+}
+
+.detail {
+  padding: 30px;
+  margin-left: -150px;
+}
+.icon {
+  margin-left: 29%;
+  margin-top: 5%;
+}
+.optional {
+  margin-left: 13px;
+}
+.box {
+  padding: 50px;
+  margin-top: -60px;
+  margin-left: -50px;
+}
+
+.country {
+  margin-top: 50px;
+  margin-left: -29.2em;
+  padding: 22px;
+}
+.country1 {
+  margin-top: 60px;
+  margin-left: 37.6%;
+}
+.paraline {
+  color: red;
+  font-size: small;
+  margin-left: -1cm;
+  padding: 20px;
+}
+.para1 {
+  color: red;
+  font-size: small;
+  margin-left: 60px;
+}
+.remittance {
+  display: flex;
+  padding-right: 20px;
+}
+.sub {
+  margin-top: -8em;
+  padding: 50px;
+  margin-left: 20px;
+}
+.link {
+  margin-left: 94%;
+  margin-top: -10px;
+}

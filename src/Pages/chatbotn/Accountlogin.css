@@ -1,0 +1,72 @@
+.ac-wrapper {
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  z-index: -11;
+}
+.ac-wrapper p span {
+  color: red;
+}
+.ac-wrapper p {
+  margin-top: -17px;
+  padding: 19px 3px;
+}
+.ac-wrapperborder {
+  border: 0;
+}
+.login-head {
+  text-align: left;
+  position: relative;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.cl-label.MuiFormLabel-root {
+  font-size: 10px;
+  color: #000;
+}
+.ac-wrapper .css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 20px;
+}
+.ac-wrapper .MuiOutlinedInput-input {
+  padding: 4.5px 5px;
+  border: 1px solid #084acf;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.ac-wrapper .css-11qr2p8-MuiButtonBase-root-MuiButton-root {
+  font-size: 12px;
+  background-color: #084acf;
+}
+.ac-wrapper .css-oj5ldf-MuiPaper-root {
+  background-color: #ccc;
+}
+.loginborder {
+  border: 0px solid blue;
+}
+.err-field {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f00;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.css-oj5ldf-MuiPaper-root {
+  background-color: #ccc !important;
+  padding: 54px 12px !important;
+  margin-top: 10px;
+}
+.custValue {
+  padding: 0;
+}
+.otpSucc p {
+  color: #008000;
+  text-align: center;
+}

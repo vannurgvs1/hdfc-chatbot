@@ -33,7 +33,14 @@
     "react-scripts": "5.0.1",
     "sweetalert2": "^11.7.5",
     "web-vitals": "^2.1.4",
-    "yup": "^1.2.0"
+    "yup": "^1.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.11.11",
+    "@react-icons/all-files": "^4.1.0",
+    "cra-template": "1.2.0",
+    "react-favicon": "^2.0.3",
+    "react-icons": "^4.8.0",
+    "save": "^2.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
